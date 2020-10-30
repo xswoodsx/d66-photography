@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/bootstrap';
+
+//= require jquery
+//= require bootstrap-sprockets
+.navbar-toggle {
+  height: 36px;
+  width: 46px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+a,
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.nav-link {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+}

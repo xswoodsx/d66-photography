@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+ */
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr;
+  grid-column-gap: 8px;
+  grid-row-gap: 0px;
+  // grid-template-areas: 'header header header' 'center-left articles center-right' 'footer footer footer';
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+li.nav-link {
+  text-align: center;
+  font-size: 25px;
+}
+
+// <!----- font awesome ---->
+.fa-instagram {
+  color: #fff;
+  font-family: 'Font Awesome 5 Brands'; /* This is the correct font-family*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fa-twitter {
+  color: #fff;
+  font-family: 'Font Awesome 5 Brands'; /* This is the correct font-family*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fa-facebook {
+  color: #fff;
+  font-family: 'Font Awesome 5 Brands'; /* This is the correct font-family*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fa-envelope {
+  color: #fff;
+  font-family: 'Font Awesome 5 Free'; /* This is the correct font-family*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+}
